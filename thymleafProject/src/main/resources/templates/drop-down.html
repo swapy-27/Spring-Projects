@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Dropdown Menu Example</title>
+</head>
+<body>
+
+<h2>Select a Color:</h2>
+
+<form action="#" th:action="@{/submit}" th:object="${selectedColor}" method="post">
+    <select th:field="*{color}">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+</body>
+</html>
