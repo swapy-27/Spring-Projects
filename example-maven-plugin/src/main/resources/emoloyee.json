@@ -1,0 +1,14 @@
+{
+  "className":"Employee",
+  "properties": {
+    "empNo": {
+      "type": "string"
+    },
+    "name": {
+      "type": "integer"
+    },
+    "address": {
+      "type": "boolean"
+    }
+  }
+}
