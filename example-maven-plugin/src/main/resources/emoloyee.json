@@ -2,13 +2,16 @@
   "className":"Employee",
   "properties": {
     "empNo": {
-      "type": "string"
+      "type": "string",
+      "accessModifier": "private"
     },
     "name": {
-      "type": "integer"
+      "type": "integer",
+      "accessModifier": "default"
     },
     "address": {
-      "type": "boolean"
+      "type": "boolean",
+      "accessModifier": "protected"
     }
   }
 }
