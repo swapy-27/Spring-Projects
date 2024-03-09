@@ -11,7 +11,7 @@ import javax.inject.Inject;
 
 @Mojo(name = "generate-pojo", defaultPhase = LifecyclePhase.GENERATE_RESOURCES)
 public class JsonToPojo extends AbstractMojo {
-    @Parameter(property = "filepath", defaultValue = "C:/Users/SWAPNILJ/Documents/maven-plugin/example-maven-plugin/src/main/resources/emoloyee.json")
+    @Parameter(property = "filepath", defaultValue = "D:/Projects/Spring-Projects/example-maven-plugin/src/main/resources/emoloyee.json")
     private String filePath;
 
 
